@@ -1,0 +1,38 @@
+.boton{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 16px;
+    
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 13px;
+    z-index: 2;
+}
+
+.links{
+
+    background-color: #f9f9f9;
+    display: none;
+
+    
+}
+.links a:hover{
+
+    background-color: #f1f1f1;
+    
+}
+.desplegable:hover .links{
+
+    display: block;
+
+}
+.desplegable{
+
+    position: absolute;
+
+
+}
